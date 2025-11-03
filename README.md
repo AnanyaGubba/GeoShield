@@ -50,26 +50,40 @@ privacy-lbs/
     ├── location_dataset.csv
     ├── analysis_results             # all the results are zipped manually after getting generated
 ```
-
-### Usage
-#### 1. Run Main Implementation
+-----
+## Usage
+### 1. Run Main Implementation
   This generates synthetic data, applies all three anonymization techniques, and produces evaluation metrics:
   ```bash
   python privacy_lbs_main.py
   ```
+#### Outputs:
 
-#### 2. Run Server-Client Simulation
+1. ```location_dataset.csv``` - Synthetic location data (500K+ queries)
+2. ```privacy_metrics_comparison.png``` - Privacy metrics visualization
+3. ```service_quality_metrics.png``` - Service quality comparison
+4. ```location_distributions.png``` - Visual comparison of original vs anonymized
+
+### 2. Run Server-Client Simulation
   Simulates the three-tier architecture (Client → Anonymizer → LBS Provider):
    ```bash
   python lbs_server_client.py
   ```
+#### Outputs:
+- Console output showing real-time processing
 
-#### 2. Run Advanced Analysis
+### 3. Run Advanced Analysis
   Performs attack simulations and comparative analysis:
    ```bash
   python advanced_analysis.py
   ```
+#### Outputs:
 
+1. ```technique_comparison.csv``` - Comparative metrics
+2. ```technique_radar_comparison.png``` - Radar chart comparison
+3. ```privacy_utility_tradeoff.png``` - Tradeoff analysis
+4. ```performance_dashboard.png``` - Comprehensive dashboard
+5. Heatmaps for location density
 ----
 
 ## Understanding the Outputs
