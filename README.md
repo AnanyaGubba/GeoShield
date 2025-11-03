@@ -1,5 +1,5 @@
 # Improving Privacy in Location-Based Services through Data Anonymization Techniques
----
+
 ## Overview
 This repository contains a comprehensive implementation of privacy-preserving techniques for Location-Based Services (LBS), including:
 
