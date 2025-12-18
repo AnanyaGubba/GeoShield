@@ -1,0 +1,4 @@
+Technique,Re-ID Risk (%),Info Loss (m),Anonymity Level,Precision (%),Response Time (ms),Privacy Score,Utility Score
+k-anonymity,3.2,450,10,93.5,198,98.4,47.25
+spatial-cloaking,5.8,520,8,92.8,215,87.1,46.4
+geo-indistinguishability,2.1,380,12,91.5,230,98.95,45.75
