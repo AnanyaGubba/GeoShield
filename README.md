@@ -48,7 +48,7 @@ privacy-lbs/
 │
 └── outputs/                         # Generated outputs
     ├── location_dataset.csv
-    ├── analysis_results             # all the results are zipped manually after getting generated
+    ├── analysis_results             # all the results obtained are collected in this folder
 ```
 -----
 ## Usage
